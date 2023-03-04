@@ -13,6 +13,8 @@
     <link href="css/sectionOne.css" rel="stylesheet">
     <link href="css/sectionTwo.css" rel="stylesheet">
     <link href="css/sectionTitle.css" rel="stylesheet">
+    <link href="css/sectionForm.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
     <title>Document</title>
 </head>
 
@@ -28,14 +30,14 @@
                 <span class="section__title__color__indigo">S</span>
                 <span class="section__title__color__violet">.</span>
             </H1>
-            <form class="section__form">
-                <input class="section__form__input"
-                    placeholder="Please write the name of the color you would like to see.">
+            <form class="section__form js-form">
+                <input class="section__form__input js-colorInput"
+                    placeholder="Please write the name of the color you would like to see." autofocus>
                 <button class="section__form__button">Add new color</button>
             </form>
         </section>
         <section class="section__two">
-            <div class="section__two__colors"></div>
+            <div class="section__two__colors js-color"></div>
         </section>
     </main>
 </body>

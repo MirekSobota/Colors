@@ -1,0 +1,17 @@
+.section__form__button {
+    color: green;
+    background: white;
+    border: solid 1px red;
+    transition: 1s;
+}
+
+.section__form__button:hover {
+    color: red;
+    background: white;
+    border: solid 1px green; 
+}
+
+.section__form__button:active {
+    transform: scale(1.5) rotate(360deg);
+   
+}
