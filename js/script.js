@@ -15,7 +15,7 @@
         for (const color of colors){
             htmlString += `
             <li class="colorList">
-             ${color.content}
+            <span class="square" style="background: ${color.content};"></span>
             </li>
             `;
         };
