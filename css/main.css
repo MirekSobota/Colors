@@ -1,54 +1,14 @@
 .main {
-    max-width: 200px;
-    height: 200px;
+    max-width: 800px;
+    /* height: 200px; */
     margin: 50px auto;
     padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    background: white;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     align-items: center;
     justify-items: center;   
-    transition: 1s;
+    transition: 1s; */
 }
 
-.main__box {
-    background: teal;
-    width: 50px;
-    height: 50px;
-}
-/* TEST */
-.main__box__1:hover {
-    transform: rotateY(45deg);
-    background: red;
-}
-.main__box__2:hover {
-    background: blue;
-}
-
-.main__box__3:hover {
-    background: white;
-}
-
-.main__box__4:hover {
-    background: rgb(0, 255, 170);
-}
-
-.main__box__5:hover {
-    background: rgb(255, 0, 212);
-}
-
-.main__box__6:hover {
-    background: rgb(40, 61, 30);
-}
-
-.main__box__7:hover {
-    background: rgb(0, 140, 255);
-}
-
-.main__box__8:hover {
-    background: rgb(29, 28, 28);
-}
-
-.main__box__9:hover {
-    background: rgb(208, 255, 0);
-}
