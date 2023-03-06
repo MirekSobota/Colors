@@ -1,6 +1,6 @@
 .square {
     display: block;
-    width: 50px;
+    max-width: 850px;
     height: 50px;
 }
 
