@@ -1,4 +1,5 @@
 .section__form__button {
+    padding: 10px;
     color: green;
     background: white;
     border: solid 1px red;
