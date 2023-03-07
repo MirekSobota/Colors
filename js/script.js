@@ -1,5 +1,7 @@
 {
     let colors = [];
+  
+
 
     const cssColorsList = [
         { name: 'AliceBlue', hex: '#F0F8FF' },
@@ -151,9 +153,13 @@
         { name: 'YellowGreen', hex: '#9ACD32' }
     ];
 
-    const isColorCorrect = () => {
-        const correctColor = correctColor.includes()
-    };
+   const isColorCorrect = () => {
+    const colorInputElement = document.querySelector(".js-colorInput");
+        const colorInput = colorInputElement.value.trim();
+
+        const isInList = cssColorsList.some(({name}) =>  name  === colorInput)
+    console.log(isInList)
+   };
 
     const addNewColor = (newColorInput) => {
         colors = [
@@ -169,10 +175,12 @@
         for (const color of colors) {
             htmlString += `
             <li class="colorList">
+            
             <span class="text">${color.content}</span>
             <span class="square" style="background: ${color.content};"></span>
             </li>
             `;
+            isColorCorrect();
         };
 
         document.querySelector(".js-color").innerHTML = htmlString;
@@ -186,6 +194,7 @@
 
         if (newColorInput !== "") {
             addNewColor(newColorInput);
+
         }
         newColorInputElement.focus();
         newColorInputElement.value = "";
@@ -196,6 +205,7 @@
         const form = document.querySelector(".js-form");
 
         form.addEventListener("submit", onFormSubmit);
+       
 
 
 
