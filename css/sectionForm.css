@@ -1,5 +1,5 @@
 .section__form__button {
-    padding: 10px;
+    padding: 5px;
     color: green;
     background: white;
     border: solid 1px red;
@@ -13,6 +13,5 @@
 }
 
 .section__form__button:active {
-    transform: scale(1.5) rotate(360deg);
-   
+    background: teal;
 }
