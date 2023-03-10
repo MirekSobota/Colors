@@ -1,14 +1,8 @@
 .main {
     max-width: 850px;
-    /* height: 200px; */
+    
     margin: 50px auto;
     padding: 10px;
     background: white;
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    align-items: center;
-    justify-items: center;   
-    transition: 1s; */
 }
 
